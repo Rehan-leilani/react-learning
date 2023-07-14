@@ -1,11 +1,12 @@
 import React from 'react'
-import style from './Wrapper.module.css'
+import style from './Wrapper.module.css' 
 
 const Wrapper = () => {
     async function getAdvice(){
-        <p id='text'>Rehan</p>
+        <p>Rehan</p>
+        console.log(getAdvice)
     }
-    console.log()
+
   return (
     <>
     <div className={style.main}>
